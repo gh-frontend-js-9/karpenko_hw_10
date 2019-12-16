@@ -35,7 +35,7 @@ lib.convert = async (fromCurrency, toCurrency, amount) => {
 }
 
 lib.run = (fromCurrency, toCurrency, amount) => {
-    lib.convert(fromCurrency, toCurrency, 20)
+    lib.convert(fromCurrency, toCurrency, amount)
     .then(message => {
         console.log(message)
     })

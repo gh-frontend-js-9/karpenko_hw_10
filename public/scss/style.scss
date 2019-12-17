@@ -1,0 +1,44 @@
+.header {
+    background: lemonchiffon;
+    color: green;
+    text-align: center;
+    font-size: 1.75rem;
+    padding: .5rem 0;
+}
+.main {
+    .resoult{
+        color: green;
+        padding: .5rem 0;
+        text-align: center;
+        font-size: 1.25rem;
+    }
+    &__article{
+        width: fit-content;
+        margin: auto;
+    }
+}
+.input-group{
+    margin: 1rem auto;
+    width: auto;
+    font-size: 1.25rem;
+    .input__field{
+        border: .01rem solid green;
+        text-align: center;
+    }
+    .input__label{
+        color: green;
+    }
+}
+
+.submit-btn-wrapper{
+    .btn{
+        width: 100%;
+        color: green;
+        background: lemonchiffon;
+        outline: none;
+        font-size: 1.5rem;
+    }
+    .btn:hover, .btn:focus{
+        color: orangered;
+    }
+}
